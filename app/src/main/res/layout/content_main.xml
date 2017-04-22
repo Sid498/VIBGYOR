@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sid.vibgyor_assignment31.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRed"
+        android:background="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnOrange"
+        android:background="#FFA500"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orange" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnYellow"
+        android:background="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yellow" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnGreen"
+        android:background="#008000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnBlue"
+        android:background="#0000FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnIndigo"
+        android:background="#4B0082"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indigo" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnViolet"
+        android:background="#EE82EE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Violet" />
+
+
+</LinearLayout>
+
+
+
